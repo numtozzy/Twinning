@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--
+* CoreUI - Free Bootstrap Admin Template
+* @version v2.0.0
+* @link https://coreui.io
+* Copyright (c) 2018 creativeLabs Łukasz Holeczek
+* Licensed under MIT (https://coreui.io/license)
+-->
+
+<html lang="en">
+<head>
+    <base href="./">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
+    <meta name="author" content="Łukasz Holeczek">
+    <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
+    <title>CoreUI Free Bootstrap Admin Template</title>
+    <!-- Icons-->
+    <link href="vendors/@coreui/icons/css/coreui-icons.min.css" rel="stylesheet">
+    <link href="vendors/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+    <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendors/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <!-- Main styles for this application-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="vendors/pace-progress/css/pace.min.css" rel="stylesheet">
+</head>
+<body class="app flex-row align-items-center">
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card mx-4">
+                <div class="card-body p-3">
+                    <h2>四则运算</h2>
+                    <div class="btn-group btn-group-toggle float-right mr-3" data-toggle="buttons">
+                        <label class="btn btn-outline-secondary active">
+                            <i class="fa fa-hand-spock-o "></i>
+                            <input id="option1" name="options" autocomplete="off"  checked="" type="radio"> 基础
+                        </label>
+                        <label class="btn btn-outline-secondary">
+                            <i class="fa fa-sort-amount-desc "></i>
+                            <input id="option2" name="options" autocomplete="off" checked="" type="radio"> 阶乘
+                        </label>
+                        <label class="btn btn-outline-secondary  nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-magic"></i>皮肤
+                        </label>
+                             <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fa fa-bell-o"></i> color1
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fa fa-envelope-o"></i> color2
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fa fa-tasks"></i> color3
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fa fa-comments"></i> color4
+                                </a>
+                            </div>
+                        </label>
+                    </div>
+                    <p class="text-muted">计时：00：00</p>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    式子
+                  </span>
+                        </div>
+                        <input class="form-control" type="text" readonly="readonly" >
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">答案</span>
+                        </div>
+                        <input class="form-control" type="text" >
+                        <div class="col-6 col-sm-4 col-md-2 col-xl  ">
+                        <button class="btn btn-pill  btn-secondary" type="button">提交</button>
+                    </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    结果
+                  </span>
+                        </div>
+                        <input class="form-control" type="password" readonly="readonly">
+                    </div>
+
+                    <button class="btn btn-block btn-success" type="button"><i class="fa fa-history "></i>计时</button>
+                </div>
+                <div class="card-footer p-4">
+                    <div class="row">
+                        <div class="col-6">
+                            <button class="btn btn-block btn-primary" type="button">
+                                <span>开始</span>
+                            </button>
+                        </div>
+                        <div class="col-6">
+                            <button class="btn btn-block btn-danger" type="button">
+                                <span>结束</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- CoreUI and necessary plugins-->
+<script src="vendors/jquery/js/jquery.min.js"></script>
+<script src="vendors/popper.js/js/popper.min.js"></script>
+<script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendors/pace-progress/js/pace.min.js"></script>
+<script src="vendors/perfect-scrollbar/js/perfect-scrollbar.min.js"></script>
+<script src="vendors/@coreui/coreui/js/coreui.min.js"></script>
+</body>
+</html>
